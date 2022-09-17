@@ -1,0 +1,30 @@
+{
+  "name": "nhl-scores-api",
+  "version": "1.0.0",
+  "description": "NHL Scores API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matthew-Nicholson/NHL-Scores-API.git"
+  },
+  "keywords": [
+    "NHL",
+    "Scores",
+    "API"
+  ],
+  "author": "Matt Nicholson",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Matthew-Nicholson/NHL-Scores-API/issues"
+  },
+  "homepage": "https://github.com/Matthew-Nicholson/NHL-Scores-API#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cron": "^2.1.0",
+    "socket.io": "^4.5.1"
+  }
+}
