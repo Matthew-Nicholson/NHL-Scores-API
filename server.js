@@ -43,7 +43,7 @@ const startHourLoop = () => {
 const stopHourLoop = () => {
   if (!STATE.hourLoopIsRunning) return;
   STATE.hourLoopIsRunning = false;
-  return returnhourLoop.stop();
+  return hourLoop.stop();
 };
 
 const hourLoop = everyHour(async () => {
